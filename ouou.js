@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/integral\.dasyibalang\.com url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/ouou.js.js
+^https:\/\/integral\.dasyibalang\.com url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/ouou.js
 [mitm] 
 hostname = integral.dasyibalang.com
 
