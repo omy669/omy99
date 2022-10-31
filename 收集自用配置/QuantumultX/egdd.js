@@ -1,3 +1,4 @@
+*******************************/
 [rewrite_local]
 ^http?:\/\/gateway\.ergedd\.com\/dduser\/user\/center\/register|http?:\/\/gateway\.ergedd\.com\/dduser\/user\/center\/set*?url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/egdd.js
 [mitm]
