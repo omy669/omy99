@@ -1,4 +1,5 @@
 /******************************
+#微商星球
 [rewrite_local]
 ^https?:\/\/api\.momosyb\.com\/v6\/user\/index|https?:\/\/api\.momosyb\.com\/v6\/fans\/poster|https?:\/\/api\.momosyb\.com\/v1\/user\/weidou*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/wsxq.js
 
