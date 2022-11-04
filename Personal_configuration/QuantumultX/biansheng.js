@@ -5,8 +5,7 @@
 *******************************
 
 [rewrite_local]
-^http?:\/\/voicechanger\.szsszykj\.com\/interface\/GetIosVip\.php*? url
-script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/biansheng.js
+^http?:\/\/voicechanger\.szsszykj\.com\/interface\/GetIosVip\.php*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/biansheng.js
 
 [mitm]
 hostname = voicechanger.szsszykj.com
