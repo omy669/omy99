@@ -2,7 +2,7 @@
 🫧脚本名称:汇中考
 
 [rewrite_local]
-^https?:\/\/www\.zhongkao66\.com\/api\/user\/index.*? url script-request-header Jssmy.js
+^https?:\/\/www\.zhongkao66\.com\/api\/user\/index*? url script-response-body Jssmy.js
 
 [mitm]
 hostname = www.zhongkao66.com
