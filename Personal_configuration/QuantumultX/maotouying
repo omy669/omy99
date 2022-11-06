@@ -1,0 +1,16 @@
+/******************************
+
+🫧App名称:猫头鹰文件
+
+[rewrite_local]
+^https?:\/\/www\.skyjos\.cn\/ws\/loadaccountinfo*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/maotouying
+
+
+[mitm]
+hostname = www.skyjos.cn
+
+*******************************/
+var body=$response.body;
+body = body.replace(/"memberLevel\":0/g,'"memberLevel":2');
+body = body.replace(/"expireAt\":0/g,'"expireAt":1920217479000');
+$done(body);
