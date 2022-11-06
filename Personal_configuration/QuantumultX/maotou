@@ -1,9 +1,8 @@
 /******************************
-
-🫧App名称:猫头鹰文件
+🫧脚本名称:猫头鹰文件
 
 [rewrite_local]
-^https?:\/\/www\.skyjos\.cn\/ws\/loadaccountinfo*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/maotouying
+^https?:\/\/www\.skyjos\.cn\/ws\/loadaccountinfo*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/maotou
 
 
 [mitm]
