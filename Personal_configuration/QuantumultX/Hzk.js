@@ -2,7 +2,7 @@
 🫧APP名称:汇中考
 
 [rewrite_local]
-^https?:\/\/www\.zhongkao66\.com\/api\/user\/index*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/Hzk
+^https?:\/\/www\.zhongkao66\.com\/api\/user\/index*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/Hzk.js
 [mitm]
 hostname = www.zhongkao66.com
 
