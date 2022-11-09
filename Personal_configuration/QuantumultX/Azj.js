@@ -1,5 +1,5 @@
 /******************************
-🫧脚本名称:爱证件
+脚本名称:爱证件
 
 [rewrite_local]
 ^https?:\/\/zhengjian\.flyingeffect\.com\/api\/user\/userInfo*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/Azj.js
