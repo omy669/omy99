@@ -1,5 +1,4 @@
 /******************************
-🫧脚本名称:千变语音
 
 [rewrite_local]
 ^https?:\/\/www\.helloshiyu\.com\/voice\/user\/profile*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/qbyy.js
