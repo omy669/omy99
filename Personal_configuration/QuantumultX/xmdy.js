@@ -1,5 +1,5 @@
 /******************************
-
+APP：小米打印
 [rewrite_local]
 ^https?:\/\/api-miprint\.hannto\.com\/v1\/c\/user\/vip_info\/*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/xmdy.js
 
