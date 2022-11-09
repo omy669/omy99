@@ -1,7 +1,7 @@
 /*************
 App名称：得间小说
 [rewrite_local]
-^https?:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo*? url script-response-body djxs.js
+^https?:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/djxs
 
 [mitm]
 hostname = dj.palmestore.com
