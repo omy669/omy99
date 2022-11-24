@@ -6,8 +6,7 @@ hostname = diary-id.sumi.io
 *******/
 
 var objc = JSON.parse($response.body);
-       objc = {
-  "data":{
+       objc = {"data":{
     "avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83erzu55akkolicwWA50Vib4vE8Asu8qb0AFHPNNwxzZp90rEo6NdQ0NDMCIHetcLU52zW5iaCzuC2ktEA/132",
     "inserted_at":"2022-11-24T12:21:50.644912",
     "email_is_valid":false,
