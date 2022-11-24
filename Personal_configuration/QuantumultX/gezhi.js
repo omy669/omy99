@@ -1,6 +1,6 @@
 /******
 [rewrite_local]
-^https:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body gezhi.js
+^https:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/gezhi.js
 [mitm] 
 hostname = diary-id.sumi.io
 *******/
