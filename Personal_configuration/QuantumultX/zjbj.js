@@ -2,8 +2,7 @@
 🫧脚本名称:指尖笔记
 
 [rewrite_local]
-^http?:\/\/data\.ufbae\.com\/User\/GetUser*? url script-response-body zjbj.js
-
+^http?:\/\/data\.ufbae\.com\/User\/GetUser*? url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/zjbj.js
 
 [mitm]
 hostname = data.ufbae.com
