@@ -1,6 +1,6 @@
 /************
 [rewrite_local]
-^http[s]:\/\/api\.528529\.com\/apple_product url script-response-body wf.js
+^http[s]:\/\/api\.528529\.com\/apple_product url script-response-body https://raw.githubusercontent.com/omy669/omy99/main/Personal_configuration/QuantumultX/tpzwz.js
 [mitm] 
 hostname = api.528529.com
 ************/
